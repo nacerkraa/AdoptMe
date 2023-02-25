@@ -17,7 +17,7 @@ npm install
 npm run dev
 ```
 
-(4) Brow the app
+(4) Brows the app
 ```url
 http://localhost:5173/
 ```
