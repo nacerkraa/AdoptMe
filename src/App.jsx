@@ -4,14 +4,14 @@ import Details from "./Details";
 import SearchParams from "./SearchParams";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
-const queryClient = new QueryClient(
+const queryClient = new QueryClient({
   defaultOptions: {
-    queries:{
+    queries: {
       staleTime: Infinity,
       cacheTime: Infinity,
     },
   },
-)
+});
 
 const App = () => {
   return (
