@@ -1,9 +1,12 @@
 {
+  "homepage": "https://nacerkraa.github.io/react-ghp",
   "name": "citr-v8-project",
   "version": "8.0.0",
   "description": "Complete Intro to React v8 project",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -21,6 +24,7 @@
     "eslint-plugin-jsx-a11y": "6.6.1",
     "eslint-plugin-react": "7.31.8",
     "eslint-plugin-react-hooks": "4.6.0",
+    "gh-pages": "^5.0.0",
     "prettier": "2.7.1",
     "vite": "3.1.4"
   },
